@@ -5,11 +5,11 @@ A Reddit Flair Detector to detect flairs of India subreddit posts using Machine 
 ### Structure
 
 
-1. [Data-Collection Notebook](https://github.com/AbhinavS99/Reddit-Flair-Detection-ML/blob/master/Reddit_Data_Collection.ipynb) contains all the code that was used to fetch data using PRAW API from reddit and adding it to the mongodb database using pymongo. It was the fetched back from the data base and pre-processed to add it into a CSV file to do the data analysis and build the machine learning model.
+1. [Data-Collection Notebook](https://github.com/AbhinavS99/Reddit-Flair-Detection-ML/blob/main/Reddit_Data_Collection.ipynb) contains all the code that was used to fetch data using PRAW API from reddit and adding it to the mongodb database using pymongo. It was the fetched back from the data base and pre-processed to add it into a CSV file to do the data analysis and build the machine learning model.
    
-2. [Exploratory Data Analysis Notebook](https://github.com/AbhinavS99/Reddit-Flair-Detection-ML/blob/master/Exploratory_Data_Analysis.ipynb) contains all the code that was used to analyse and visualize the data.
+2. [Exploratory Data Analysis Notebook](https://github.com/AbhinavS99/Reddit-Flair-Detection-ML/blob/main/Exploratory_Data_Analysis.ipynb) contains all the code that was used to analyse and visualize the data.
     
-3. [Flair-Detector Notebook](https://github.com/AbhinavS99/Reddit-Flair-Detection-ML/blob/master/Flair_Detection.ipynb) contains the code used to train various machine learning models and check the accuracy on different features.
+3. [Flair-Detector Notebook](https://github.com/AbhinavS99/Reddit-Flair-Detection-ML/blob/main/Flair_Detection.ipynb) contains the code used to train various machine learning models and check the accuracy on different features.
  
   
 ### Codebase
@@ -19,7 +19,7 @@ The entire code has been developed using Python programming language, utilizing 
   
 ### Dependencies
 
-The following dependencies can be found in [requirements.txt](https://github.com/AbhinavS99/Reddit-Flair-Detection-ML/blob/master/website/requirements.txt):
+The following dependencies are required:
 
   1. [praw](https://praw.readthedocs.io/en/latest/)
   2. [scikit-learn](https://scikit-learn.org/)
